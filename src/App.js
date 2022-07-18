@@ -1,19 +1,13 @@
 // import logo from './logo.svg';
-import React from "react";
-import Main from './main';
-import './App.css';
-import { BrowserRouter as Router } from "react-router-dom";
-import AOS from "aos";
-import "aos/dist/aos.css";
-
-AOS.init();
+import React, {Fragment } from 'react';
+import Header from './components/Layout/Header';
 
 function App() {
   return (
-    <Router>
-        <Main />
-    </Router>
-  )
+    <Fragment>
+      <Header />
+    </Fragment>
+  );
 }
 
 export default App;
