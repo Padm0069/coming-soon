@@ -4,7 +4,7 @@ import classes from './Header.module.css';
 const Header = (props) => {
   return (
     <Fragment>
-      <header className={classes.header}>
+      <header className={classes}>
         <img src={logoImage} alt="Logo Image" />
         <h1>Biased For Action</h1>
         <button>Join Waitlist</button>
